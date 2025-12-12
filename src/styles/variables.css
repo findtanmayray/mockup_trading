@@ -1,0 +1,54 @@
+/* src/styles/variables.css */
+:root {
+  /* Core Colors (HSL) */
+  --color-bg-base: 220 15% 10%;      /* Nearly black */
+  --color-bg-paper: 220 15% 14%;     /* Dark slate */
+  --color-bg-card: 220 15% 18%;      /* Lighter slate */
+  --color-bg-elevated: 220 15% 22%;  /* Popovers */
+
+  --color-text-primary: 220 10% 95%;
+  --color-text-secondary: 220 10% 70%;
+  --color-text-muted: 220 10% 50%;
+
+  --color-primary: 210 100% 50%;     /* Blue accent */
+  --color-primary-hover: 210 100% 45%;
+
+  --color-success: 150 60% 45%;      /* Emerald */
+  --color-danger: 350 70% 50%;       /* Rose */
+  --color-warning: 35 90% 55%;       /* Amber */
+
+  /* Borders & Dividers */
+  --color-border: 220 10% 25%;
+  --color-divider: 220 10% 20%;
+
+  /* Glassmorphism */
+  --glass-bg: rgba(30, 35, 45, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+
+  /* Typography */
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+}
+
+body {
+  background-color: hsl(var(--color-bg-base));
+  color: hsl(var(--color-text-primary));
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+}
